@@ -2,7 +2,7 @@
     "name": "overtrue/laravel-socialite",
     "description": "Social OAuth authentication for Laravel 5.",
     "require": {
-        "overtrue/socialite": "~1.0"
+        "overtrue/socialite": "^1.0"
     },
     "license": "MIT",
     "authors": [
