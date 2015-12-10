@@ -1,6 +1,6 @@
 # Laravel-socialite
 
-# Installing
+# Installation
 
 ```
 $ composer require "overtrue/laravel-socialite:~1.0"
