@@ -10,18 +10,18 @@ $ composer require "overtrue/laravel-socialite:~1.0"
 
 1. After installing the Socialite library, register the `Overtrue\LaravelSocialite\ServiceProvider` in your config/app.php configuration file:
 
-```php
-'providers' => [
-    // Other service providers...
-    Overtrue\LaravelSocialite\ServiceProvider::class,
-],
-```
+  ```php
+  'providers' => [
+      // Other service providers...
+      Overtrue\LaravelSocialite\ServiceProvider::class,
+  ],
+  ```
 
 2. Add the follow line to the `aliases` section of `config/app.php`:
 
-```php
-'Socialite' => 'Overtrue\LaravelSocialite\Socialite',
-```
+  ```php
+  'Socialite' => 'Overtrue\LaravelSocialite\Socialite',
+  ```
 
 3. You will also need to add credentials for the OAuth services your application utilizes. These credentials should be placed in your `config/socialite.php` or `config/services.php` configuration file, and should use the key facebook, twitter, linkedin, google, github or bitbucket, depending on the providers your application requires. For example:
  ```php
