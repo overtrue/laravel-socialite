@@ -4,6 +4,11 @@
     "require": {
         "overtrue/socialite": "~1.0"
     },
+    "autoload": {
+        "psr-4": {
+            "Overtrue\\LaravelSocialite\\": "src/"
+        }
+    },
     "license": "MIT",
     "authors": [
         {
