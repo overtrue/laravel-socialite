@@ -19,12 +19,10 @@ class ServiceProvider extends LaravelServiceProvider
 
     /**
      * Register the provider.
-     *
-     * @return void
      */
     public function register()
     {
-        $this->app->singleton(['Overtrue\\Socialite\\SocialiteManager' => 'overtrue.socialite'], function($app){
+        $this->app->singleton('Overtrue\\Socialite\\SocialiteManager', function ($app) {
             $config = array_merge(config('socialite', []), config('services', []));
 
             return new SocialiteManager($config);
@@ -38,6 +36,6 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function provides()
     {
-        return ['Overtrue\\Socialite\\SocialiteManager', 'overtrue.socialite'];
+        return ['Overtrue\\Socialite\\SocialiteManager'];
     }
 }

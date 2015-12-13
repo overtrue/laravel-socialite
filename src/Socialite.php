@@ -14,8 +14,8 @@ class Socialite extends Facade
      *
      * @return string
      */
-    static public function getFacadeAccessor()
+    public static function getFacadeAccessor()
     {
-        return "overtrue.socialite";
+        return 'Overtrue\\Socialite\\SocialiteManager';
     }
 }
