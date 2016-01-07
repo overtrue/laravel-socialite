@@ -25,7 +25,7 @@ class ServiceProvider extends LaravelServiceProvider
         $this->app->singleton('Overtrue\\Socialite\\SocialiteManager', function ($app) {
             $config = array_merge(config('socialite', []), config('services', []));
 
-            return new SocialiteManager($config);
+            return new SocialiteManager($config, $app->make('request'));
         });
     }
 
