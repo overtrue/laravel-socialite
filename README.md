@@ -36,7 +36,7 @@ $ composer require "overtrue/laravel-socialite:~1.0"
          'redirect'      => 'http://localhost/socialite/callback.php',
      ],
      //...
- ],
+ ];
  ```
 
 # Usage
