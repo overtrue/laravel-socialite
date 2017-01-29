@@ -22,7 +22,7 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('Overtrue\\Socialite\\SocialiteManager', function ($app) {
+        $this->app->singleton(SocialiteManager::class, function ($app) {
             $config = array_merge(config('socialite', []), config('services', []));
 
             return new SocialiteManager($config, $app->make('request'));
@@ -36,6 +36,6 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function provides()
     {
-        return ['Overtrue\\Socialite\\SocialiteManager'];
+        return [SocialiteManager::class];
     }
 }
