@@ -15,5 +15,12 @@
             "name": "overtrue",
             "email": "anzhengchao@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Overtrue\\LaravelSocialite\\ServiceProvider"
+            ],
+        }
+    }
 }
