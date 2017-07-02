@@ -21,6 +21,9 @@
             "providers": [
                 "Overtrue\\LaravelSocialite\\ServiceProvider"
             ],
+            "aliases": {
+                "Socialite": "Overtrue\\LaravelSocialite\\Socialite"
+            }
         }
     }
 }
