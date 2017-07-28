@@ -1,4 +1,4 @@
-# Laravel-socialite
+<h1 align="center"> Laravel-socialite </h1>
 
 # Installation
 
