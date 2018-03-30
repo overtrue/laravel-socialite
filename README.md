@@ -3,7 +3,7 @@
 # Installation
 
 ```
-$ composer require "overtrue/laravel-socialite:~1.0"
+$ composer require "overtrue/laravel-socialite:~2.0"
 ```
 > if you have been installed the `overtrue/socialite` package, please remove it from `composer.json` before this command.
 
