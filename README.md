@@ -42,7 +42,7 @@ class AuthController extends Controller
      */
     public function redirectToProvider()
     {
-        return redirect()->to(Socialite::driver('github')->redirect());
+        return redirect()->to(Socialite::create('github')->redirect());
     }
 
     /**
@@ -50,7 +50,7 @@ class AuthController extends Controller
      */
     public function handleProviderCallback(Request $request)
     {
-        $user = Socialite::driver('github')->userFromCode($request->query('code'));
+        $user = Socialite::create('github')->userFromCode($request->query('code'));
 
         // $user->getId();
         // $user->getNickname();
