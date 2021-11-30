@@ -1,6 +1,6 @@
 <h1 align="center"> Laravel-socialite </h1>
 
-[![Sponsor me](https://raw.githubusercontent.com/overtrue/overtrue/master/sponsor-me-button-s.svg)](https://github.com/sponsors/overtrue)
+[![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me-button-s.svg?raw=true)](https://github.com/sponsors/overtrue)
 
 # Installation
 
@@ -73,7 +73,7 @@ About more usage, please refer to [overtrue/socialite](https://github.com/overtr
 
 ## :heart: Sponsor me 
 
-[![Sponsor me](https://raw.githubusercontent.com/overtrue/overtrue/master/sponsor-me.svg)](https://github.com/sponsors/overtrue)
+[![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me.svg?raw=true)](https://github.com/sponsors/overtrue)
 
 如果你喜欢我的项目并想支持它，[点击这里 :heart:](https://github.com/sponsors/overtrue)
 
