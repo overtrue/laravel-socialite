@@ -1,18 +1,25 @@
-<h1 align="center"> Laravel-socialite </h1>
+# Laravel Socialite
+
+![Laravel Octane Ready Status](https://img.shields.io/badge/Octance-ready-green?style=flat-square)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/overtrue/laravel-socialite?style=flat-square)
+![GitHub License](https://img.shields.io/github/license/overtrue/laravel-socialite?style=flat-square)
+![Packagist Downloads](https://img.shields.io/packagist/dt/overtrue/laravel-socialite?style=flat-square)
 
 [![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me-button-s.svg?raw=true)](https://github.com/sponsors/overtrue)
 
 # Installation
 
 ```
-$ composer require "overtrue/laravel-socialite:~3.0"
+$ composer require "overtrue/laravel-socialite"
 ```
+
 > if you have been installed the `overtrue/socialite` package, please remove it from `composer.json` before this command.
 
 # Configuration
 
 1. You will also need to add credentials for the OAuth services your application utilizes. These credentials should be placed in your `config/socialite.php` or `config/services.php` configuration file, and should use the key facebook, twitter, linkedin, google, github or bitbucket, depending on the providers your application requires. For example:
- ```php
+
+```php
  <?php
 
  return [
@@ -24,7 +31,7 @@ $ composer require "overtrue/laravel-socialite:~3.0"
      ],
      //...
  ];
- ```
+```
 
 # Usage
 
@@ -70,13 +77,11 @@ Route::get('/oauth/github/callback', 'AuthController@handleProviderCallback');
 
 About more usage, please refer to [overtrue/socialite](https://github.com/overtrue/socialite).
 
-
-## :heart: Sponsor me 
+## :heart: Sponsor me
 
 [![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me.svg?raw=true)](https://github.com/sponsors/overtrue)
 
 如果你喜欢我的项目并想支持它，[点击这里 :heart:](https://github.com/sponsors/overtrue)
-
 
 ## Project supported by JetBrains
 
